@@ -1,0 +1,84 @@
+.page-grid {
+  display: grid;
+  grid-template-columns: 175px 175px 175px;
+}
+.card {
+  box-shadow: 1px 1px 5px grey;
+  margin-left: 8px;
+  margin-right: 6px;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.avatar {
+  width: 100%;
+}
+.friend-avt {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.friend-picture {
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.profile-picture,
+.info {
+  display: block;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.mutual-friend {
+  color: grey;
+  font-size: 12px;
+}
+
+.mutual {
+  display: grid;
+  grid-template-columns: 35px 1fr;
+  align-items: center;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.add-friend {
+  background-color: rgb(57, 117, 234);
+  color: white;
+  font-size: 12px;
+  margin-left: 6px;
+  margin-bottom: 8px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.add-friend-grid {
+  display: grid;
+  grid-template-columns: 100px;
+  align-items: center;
+}
+.name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.add-friend:hover {
+  cursor: pointer;
+}
+
+.add-friend:active {
+  opacity: 0.8;
+}

@@ -1,0 +1,71 @@
+p {
+  margin: 0px;
+  font-family: Arial;
+}
+
+.main-box {
+  box-shadow: 1px 1px 5px rgb(197, 196, 196);
+  padding-left: 24px;
+  width: 360px;
+  padding-bottom: 24px;
+}
+
+.head-note {
+  padding-top: 10px;
+  margin-bottom: 16px;
+}
+
+.note p {
+  color: gray;
+  font-size: 13px;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 12px;
+  margin-bottom: 18px;
+}
+
+.avatar {
+  width: 45px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.text-container {
+  padding-left: 12px;
+}
+
+.first-row-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+  width: 108%;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.time {
+  color: gray;
+  font-size: 12px;
+}
+
+.email-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.second-row-container {
+  margin-bottom: 4px;
+}
+
+.email-brief {
+  font-size: 13px;
+  color: gray;
+}

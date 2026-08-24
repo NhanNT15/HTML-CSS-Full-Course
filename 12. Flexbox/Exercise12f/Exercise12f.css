@@ -1,0 +1,52 @@
+p {
+  margin: 0px;
+  font-family: Arial;
+  color: white;
+}
+.main-box {
+  background-color: rgb(113, 83, 171);
+}
+
+.flex-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.home-button {
+  font-weight: bold;
+}
+
+.home-button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.mid-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  width: 400px;
+  height: 28px;
+  border-radius: 25px;
+  border: 0px;
+  padding: 4px 18px;
+}
+
+.download-button {
+  border: 1px solid white;
+  padding: 6px 12px;
+}
+
+.download-button:hover {
+  cursor: pointer;
+}
+
+.download-button:active {
+  background-color: rgb(165, 151, 193);
+}

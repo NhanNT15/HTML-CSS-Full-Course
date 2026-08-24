@@ -1,0 +1,81 @@
+.card {
+  display: inline-block;
+  box-shadow: 1px 1px 5px grey;
+  margin-left: 8px;
+  margin-right: 6px;
+}
+
+p {
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+img {
+  display: block;
+  width: 150px;
+}
+
+.friend-avt {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.friend-picture {
+  display: inline-block;
+  margin-left: 4px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.mutual-num {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.profile-picture,
+.info {
+  display: block;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 6px;
+  margin-left: 6px;
+}
+
+.mutual-friend {
+  color: grey;
+  font-size: 12px;
+}
+
+.mutual {
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.add-friend {
+  display: inline-block;
+  background-color: rgb(57, 117, 234);
+  color: white;
+  font-size: 12px;
+  margin-left: 6px;
+  margin-bottom: 8px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 4px;
+}
+
+.name:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.add-friend:hover {
+  cursor: pointer;
+}
+
+.add-friend:active {
+  opacity: 0.8;
+}

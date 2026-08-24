@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      p {
+        margin: 0px;
+      }
+      div {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      .first,
+      .third {
+        background-color: rgb(148, 187, 244);
+      }
+      .second,
+      .fourth {
+        background-color: rgb(252, 169, 195);
+      }
+
+      .two-column {
+        display: grid;
+        grid-template-columns: 200px 75px;
+      }
+
+      .three-column {
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+      }
+
+      .fourth-column {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 10px;
+        column-gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="two-column">
+      <p class="first">200px</p>
+      <p class="second">75px</p>
+    </div>
+
+    <div class="three-column">
+      <p class="first">col 1</p>
+      <p class="second">col 2</p>
+      <p class="third">col 3</p>
+    </div>
+
+    <div class="fourth-column">
+      <p class="first">col 1</p>
+      <p class="second">col 2</p>
+      <p class="third">col 3</p>
+      <p class="fourth">col 4</p>
+      <p class="first">col 1</p>
+      <p class="second">col 2</p>
+      <p class="third">col 3</p>
+      <p class="fourth">col 4</p>
+    </div>
+  </body>
+</html>

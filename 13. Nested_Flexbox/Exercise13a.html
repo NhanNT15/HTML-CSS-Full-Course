@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .flex-grid {
+        display: flex;
+        flex-direction: row;
+      }
+      .pink-section {
+        display: flex;
+        background-color: rgb(244, 185, 193);
+        width: 100px;
+        height: 50px;
+        justify-content: center;
+      }
+
+      .item1 {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .item1 p {
+        background-color: black;
+        color: white;
+      }
+
+      .blue-section {
+        width: 200px;
+        background-color: rgb(182, 215, 227);
+      }
+
+      .blue-section p {
+        margin: 0px;
+      }
+      .bottom {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .row2 {
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-grid">
+      <div class="pink-section">
+        <div class="item1"><p>item1</p></div>
+      </div>
+      <div class="blue-section"></div>
+    </div>
+    <br />
+    <div class="flex-grid">
+      <div class="pink-section"></div>
+      <div class="blue-section">
+        <div class="top"><p class="row1">row1</p></div>
+        <div class="bottom">
+          <p class="row2">row2</p>
+          <p class="row2">row2</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+p {
+  font-size: 16px;
+  color: rgb(79, 77, 77);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.email {
+  margin-bottom: 4px;
+}
+
+.email-input {
+  width: 362px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+.note {
+  margin-bottom: 14px;
+}
+
+.text {
+  text-align: center;
+}
+
+.join-button {
+  background-color: rgb(45, 100, 188);
+  color: white;
+  width: 350px;
+  padding: 6px 0px 6px 0px;
+  border-width: 0px;
+  border-radius: 50px;
+}
+
+.join-button:hover {
+  cursor: pointer;
+}
+
+.join-button:active {
+  opacity: 0.8;
+}

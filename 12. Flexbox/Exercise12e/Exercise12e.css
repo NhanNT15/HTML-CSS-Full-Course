@@ -1,0 +1,27 @@
+.flex-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+p {
+  margin: 0px 0px;
+  font-family: Arial;
+  font-size: 21px;
+}
+
+.main-box {
+  width: 340px;
+  border: 1.5px solid rgb(205, 205, 205);
+  border-radius: 6px;
+  padding: 0px 15px;
+}
+
+.number {
+  background-color: rgb(65, 108, 236);
+  color: white;
+  padding: 4px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+}

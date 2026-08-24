@@ -1,0 +1,67 @@
+.main-box {
+  padding: 10px 18px;
+  width: 400px;
+  box-shadow: 1px 1px 6px rgb(199, 196, 196);
+  border-radius: 25px;
+}
+
+p {
+  margin: 0px;
+  font-family: Arial;
+}
+
+.flex-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.infomation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.text-element {
+  margin-left: 14px;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.genre {
+  color: gray;
+  margin-bottom: 4px;
+}
+
+.status {
+  color: gray;
+  font-size: 12px;
+}
+
+.follow-button {
+  background-color: rgb(64, 147, 238);
+  color: white;
+  font-weight: bold;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.follow-button:hover {
+  cursor: pointer;
+}
+
+.follow-button:active {
+  opacity: 0.8;
+}

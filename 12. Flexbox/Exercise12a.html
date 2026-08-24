@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .blue {
+        background-color: rgb(185, 219, 255);
+        width: 200px;
+      }
+      .red {
+        background-color: rgb(241, 163, 163);
+        width: 75px;
+      }
+
+      .flex {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .item1 {
+        background-color: rgb(185, 219, 255);
+        width: 50px;
+      }
+
+      .item2 {
+        background-color: rgb(241, 163, 163);
+        flex: 1;
+      }
+
+      .item3 {
+        background-color: rgb(185, 219, 255);
+        width: 75px;
+      }
+
+      .flex-gap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .flex-margin {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border-color: gray;
+        border-width: 1px;
+        height: 50px;
+        border-style: solid;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <p class="blue">200px</p>
+      <p class="red">75px</p>
+    </div>
+
+    <div class="flex">
+      <p class="item1">item1</p>
+      <p class="item2">item2</p>
+      <p class="item3">item3</p>
+    </div>
+
+    <div class="flex-gap">
+      <p class="item1">item1</p>
+      <p class="item1">item2</p>
+      <p class="item1">item3</p>
+      <p class="item1">item4</p>
+    </div>
+
+    <div class="flex-margin">
+      <p class="item1">item1</p>
+      <p class="item1">item2</p>
+    </div>
+  </body>
+</html>

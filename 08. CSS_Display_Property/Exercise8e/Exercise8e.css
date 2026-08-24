@@ -1,0 +1,46 @@
+p {
+  font-family: Arial;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.location,
+.destination {
+  display: block;
+  width: 300px;
+  background-color: rgb(240, 240, 240);
+  border-width: 0px;
+  margin-bottom: 6px;
+  padding: 14px 0px 14px 18px;
+}
+
+.request-button {
+  font-size: 12px;
+  display: inline-block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 12px 22px 12px 22px;
+  margin-top: 24px;
+  margin-right: 14px;
+}
+
+.later-button {
+  font-size: 12px;
+  display: inline-block;
+  background-color: rgb(240, 240, 240);
+  color: black;
+  width: 120px;
+  text-align: center;
+  padding: 12px 22px 12px 22px;
+  margin-top: 24px;
+}
+
+.request-button:hover,
+.later-button:hover {
+  cursor: pointer;
+}
