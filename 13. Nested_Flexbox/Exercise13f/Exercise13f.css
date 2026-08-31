@@ -1,0 +1,82 @@
+p {
+  margin: 0px;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.avt-frame img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.main-section .text-section {
+  margin-left: 12px;
+}
+
+.infomation {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.name {
+  font-weight: bold;
+  margin-right: 1ch;
+}
+
+.username {
+  color: gray;
+}
+
+.status {
+  width: 300px;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: row;
+  border: 1.5px solid rgb(211, 211, 211);
+  border-radius: 15px;
+  margin-left: 55px;
+  width: 300px;
+  height: 75px;
+}
+
+.thumbnail {
+  width: 135px;
+  background-color: rgb(211, 211, 211);
+  border-radius: 13px 0px 0px 13px;
+}
+
+.bottom-section .text-section {
+  margin-left: 12px;
+  align-self: center;
+}
+
+.address p {
+  color: gray;
+  font-size: 13px;
+}
+
+.video-title {
+  padding-right: 2px;
+}
+
+.name p:hover,
+.username p:hover,
+.address p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottom-section:hover {
+  cursor: pointer;
+}
