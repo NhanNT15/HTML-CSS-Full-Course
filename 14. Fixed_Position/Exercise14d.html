@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      .sidebar-section {
+        background-color: rgb(55, 126, 34);
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        top: 0px;
+        font-size: 12px;
+        width: 100px;
+        color: white;
+      }
+
+      .overlay {
+        display: flex;
+        flex-direction: row;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.3);
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        justify-content: center;
+        align-items: center;
+      }
+      .box {
+        background-color: white;
+        width: 260px;
+        border-radius: 12px;
+
+        padding: 12px 18px;
+      }
+
+      p {
+        margin: 0px;
+        font-family: Arial;
+      }
+
+      .modal-title {
+        font-weight: bold;
+        font-size: 21px;
+        margin-bottom: 8px;
+      }
+
+      .description {
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+      .close-button {
+        display: inline-block;
+        font-size: 11px;
+        background-color: rgb(239, 238, 239);
+        border: 1px solid black;
+        padding: 1px 5px;
+        border-radius: 3px;
+      }
+
+      .close-button:hover {
+        cursor: pointer;
+      }
+      .close-button:active {
+        background-color: rgb(187, 187, 187);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar-section">
+      <p>right sidebar</p>
+    </div>
+    <div class="overlay">
+      <div class="box">
+        <p class="modal-title">Modal Title</p>
+        <p class="description">This is a modal</p>
+        <p class="close-button">Close</p>
+      </div>
+    </div>
+  </body>
+</html>
