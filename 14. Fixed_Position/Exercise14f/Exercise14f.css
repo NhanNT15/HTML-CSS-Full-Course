@@ -1,0 +1,78 @@
+.mask {
+  position: fixed;
+  display: flex;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 360px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(32, 34, 37);
+  width: 70px;
+  align-items: center;
+}
+
+.picture-container {
+  margin-top: 15px;
+}
+
+img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.picture1-container,
+.picture2-container,
+.picture3-container {
+  margin-bottom: 4px;
+}
+
+.right-section {
+  flex: 1;
+  background-color: rgb(48, 49, 54);
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.right-section p {
+  margin: 0px;
+  color: white;
+  font-family: Arial;
+}
+.title-container {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+}
+.add-button {
+  font-size: 26px;
+}
+
+.new-vid-container p,
+.update-container p,
+.faq-container p {
+  color: rgb(172, 171, 171);
+  margin-right: 15px;
+}
+
+.new-vid-container,
+.update-container,
+.faq-container {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.new-vid-container:hover,
+.update-container:hover,
+.faq-container:hover,
+.add-button:hover {
+  cursor: pointer;
+}
