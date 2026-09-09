@@ -1,0 +1,48 @@
+.overlay {
+  position: fixed;
+  background-color: rgb(128, 128, 128);
+  bottom: 18px;
+  right: 18px;
+  width: 320px;
+  height: 180px;
+}
+
+.overlay:hover {
+  cursor: pointer;
+}
+
+.close-button-container {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+.close-button-container .background {
+  display: flex;
+  background-color: black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 4px 4px;
+  justify-content: center;
+  align-items: center;
+}
+.background p {
+  font-family: Arial;
+  color: white;
+  border-radius: 100%;
+}
+
+.time-stamp-container {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.time-stamp-container .background {
+  background-color: black;
+  padding: 4px 6px;
+}
+.time-stamp-container .background p {
+  margin: 0px;
+  font-size: 14px;
+}
